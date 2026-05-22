@@ -118,14 +118,14 @@ Les visualisations 2D et 3D montrent clairement la séparation des différents p
 
 # 🎥 Vidéos Loom
 
-## 👩‍💻 Partie 1 — Présentation et Data Cleaning
-🔗 Ajouter le lien Loom ici
+## 👩‍💻 Partie 1 — Présentation et Data Cleaning (C25248)
+https://www.loom.com/share/c2a25185c8c64fe3bd37ee50d266dc37
 
-## 👩‍💻 Partie 2 — Modèle RFM et Clustering
-🔗 Ajouter le lien Loom ici
+## 👩‍💻 Partie 2 — Modèle RFM et Clustering (C30911)
+https://www.loom.com/share/626c00d64d1345ac8410cc2aa1f6ee4a
 
-## 👩‍💻 Partie 3 — Visualisations et Conclusions
-🔗 Ajouter le lien Loom ici
+## 👩‍💻 Partie 3 — Visualisations et Conclusions (C29782)
+https://www.loom.com/share/ac936103940c4d56b5109fa609fe8cf1
 
 ---
 
