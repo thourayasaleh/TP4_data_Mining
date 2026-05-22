@@ -1,22 +1,40 @@
-# TP4 Data Mining - Problème 9
+# TP4 Data Mining — Segmentation Stratégique des Clients (RFM & K-Means)
 
-## Sujet
-Segmentation stratégique des clients avec le modèle RFM et l’algorithme K-Means.
+## 📚 Contexte
 
-## Objectif
-L’objectif de ce projet est de transformer des données transactionnelles en informations utiles pour le marketing.
+Ce projet a été réalisé dans le cadre du module **Data Mining**.
 
-Nous utilisons le dataset Online Retail afin de segmenter les clients selon :
-- Récence
-- Fréquence
-- Montant
+L’objectif est d’analyser des données transactionnelles réelles afin de segmenter les clients selon leurs comportements d’achat grâce au modèle **RFM** et à l’algorithme **K-Means**.
 
-## Membres du groupe
-- Fatimetou Mohamed Lemine Saleh — C25248
-- Sarra Abdel Aziz Rabany — C30911
-- Maryeme Yahya Hourma — C29782
+Le dataset utilisé est **Online Retail Dataset**, contenant des transactions d’un site e-commerce basé au Royaume-Uni.
 
-## Structure du projet
+---
+
+# 🎯 Objectifs du projet
+
+Ce projet vise à :
+
+- Nettoyer et préparer les données
+- Transformer les données transactionnelles
+- Construire le modèle RFM
+- Appliquer l’algorithme K-Means
+- Identifier différents profils de clients
+- Visualiser les clusters en 2D et 3D
+- Proposer des stratégies marketing adaptées
+
+---
+
+# 👥 Membres du groupe
+
+| Nom | Matricule |
+|---|---|
+| Fatimetou Mohamed Lemine Saleh | C25248 |
+| Sarra Abdel Aziz Rabany | C30911 |
+| Maryeme Yahya Hourma | C29782 |
+
+---
+
+# 🗂️ Structure du projet
 
 ```text
 TP4_DATA_MINING/
@@ -33,22 +51,109 @@ TP4_DATA_MINING/
 │
 ├── README.md
 └── requirements.txt
+```
 
-## Étapes réalisées
+---
 
-1. Chargement du dataset
-2. Conversion CSV vers Parquet
-3. Analyse des valeurs manquantes
-4. Nettoyage des données
-5. Création de la variable MontantTotal
-6. Création du modèle RFM
-7. Transformation logarithmique
-8. Standardisation des données
-9. Méthode du coude
-10. Silhouette Score
-11. Application de K-Means
-12. Analyse des clusters
-13. Profilage des clients
-14. Stratégies marketing
-15. Visualisation 2D des clusters
-16. Visualisation 3D des clusters
+# ⚙️ Technologies utilisées
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+# 📌 Étapes réalisées
+
+## Phase 1 — Acquisition et Ingestion
+
+- Chargement du dataset
+- Conversion CSV → Parquet
+- Comparaison des performances
+
+## Phase 2 — Data Cleaning
+
+- Analyse des valeurs manquantes
+- Suppression des lignes sans `CustomerID`
+- Nettoyage des données aberrantes
+
+## Phase 3 — Feature Engineering
+
+- Création de la variable `MontantTotal`
+- Construction du modèle RFM
+- Transformation logarithmique
+- Standardisation des données
+
+## Phase 4 — Clustering
+
+- Méthode du coude (Elbow Method)
+- Silhouette Score
+- Application de K-Means
+- Création des clusters
+
+## Phase 5 — Data Storytelling
+
+- Analyse des clusters
+- Profilage des clients
+- Stratégies marketing
+- Visualisation 2D
+- Visualisation 3D
+
+---
+
+# 📊 Résultats obtenus
+
+Le modèle K-Means a permis de segmenter les clients en plusieurs groupes selon :
+
+- La récence des achats
+- La fréquence des commandes
+- Le montant total dépensé
+
+Les visualisations 2D et 3D montrent clairement la séparation des différents profils clients.
+
+---
+
+# 🎥 Vidéos Loom
+
+## 👩‍💻 Partie 1 — Présentation et Data Cleaning
+🔗 Ajouter le lien Loom ici
+
+## 👩‍💻 Partie 2 — Modèle RFM et Clustering
+🔗 Ajouter le lien Loom ici
+
+## 👩‍💻 Partie 3 — Visualisations et Conclusions
+🔗 Ajouter le lien Loom ici
+
+---
+
+# 🚀 Exécution du projet
+
+Installer les dépendances :
+
+```bash
+pip install -r requirements.txt
+```
+
+Lancer Jupyter Notebook :
+
+```bash
+jupyter notebook
+```
+
+---
+
+# ✅ Conclusion
+
+Ce projet nous a permis de découvrir une pipeline complète de Data Mining :
+
+- Préparation des données
+- Transformation RFM
+- Clustering avec K-Means
+- Analyse comportementale des clients
+
+Cette approche aide les entreprises à mieux comprendre leurs clients et à améliorer leurs stratégies marketing.
+
+---
